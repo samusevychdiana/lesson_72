@@ -1,0 +1,60 @@
+.content h2 {
+    font-family: $font-main;
+    font-weight: 700;
+    font-size: $title-size;
+    color: $text2-color;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 220px;
+    text-align: center;
+}
+
+.card img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.card h3 {
+    font-family: $font-main;
+    font-weight: 700;
+    font-size: $text-size;
+    color: $text2-color;
+    margin-top: 16px;
+}
+
+.card p {
+    font-family: $font-second;
+    font-weight: 300;
+    font-size: $text-size;
+    max-width: 224px;
+    color: $text3-color;
+    margin-top: 13px;
+}
+
+.content button {
+    font-family: $font-main;
+    font-weight: 700;
+    font-size: $text-size;
+    padding: 10px 20px;
+    border: 2px solid $btn-color;
+    color: $btn-color;
+    display: block;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: $color-bg;
+}
